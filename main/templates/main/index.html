@@ -1,0 +1,23 @@
+{% extends 'main/base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1 class="main-title">Новости на сайте</h1>
+<!--        <button class="btn btn-warning">Нажми</button>-->
+        {% if news %}
+        {% for el in news %}
+            <div class="news-articles">
+                <h2>{{ el.title }}</h2>
+                <h4>{{ el.announcement }}</h4>
+                <p class="news-text">{{ el.full_text }}</p>
+                <p>{{ el.date }}  {{ el.time }}</p>
+                <a href="{% url 'news-detail' el.id %}" class="btn btn-warning">Читать детальнее</a>
+            </div>
+        {% endfor %}
+        {% else %}
+            <h4 class="no-record">У вас нет записей!</h4>
+        {% endif %}
+    </div>
+{% endblock %}

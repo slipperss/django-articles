@@ -1,0 +1,117 @@
+body {
+    background: #2c2c2c;
+}
+aside {
+    float: left;
+    background: #181818;
+    width: 18%;
+    padding: 2.5%;
+    bottom: auto;
+    height: 100%;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+    position: fixed!important;
+}
+aside img {
+    margin-top: -4px;
+    width: 85px;
+    float: left;
+    color: #fff;
+}
+aside .logo {
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+aside li {
+    margin-left: -10px;
+}
+aside li button{
+    margin-top: 10px;
+    margin-left: -20px;
+}
+aside h3 {
+    margin-top: 65px;
+    font-size: 28px;
+}
+aside ul {list-style: none}
+aside ul li, aside ul a{
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05)
+}
+aside ul a{
+    color: #181818;
+}
+main .features{
+    float: right;
+    color: #B37D42;
+    text-align: center;
+    width: 82%;
+    margin: 100px 0 200px 0;
+    height: 100%;
+}
+
+.news-articles{
+    width: 600px;
+    clear: both;
+    margin:20px 34%;
+    text-align: center;
+    /*color: #664d03;*/
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+}
+.main-title {
+    margin-left: 1%;
+    /*position: center;*/
+    color: #B37D42;
+    margin-bottom: 40px;
+}
+.news-text {
+    text-align: left;
+}
+main .features h1 {font-size: 50px}
+main .features p {max-width: 400px; margin: 20px auto}
+
+form {
+    margin-left: 32%;
+    width: 585px;
+    margin-top: 50px;
+}
+.no-record {
+    position: center;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.btn-info {
+    background-color: #B37D42;
+    border-color: #B37D42;
+    color: #000000;
+}
+.btn-warning {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.btn-success {
+    margin-right: 70px;
+    margin-left: 50px;
+}
+.delete{
+    background: #a40e10;
+    border-color: #A40E10;
+}
+.delete:hover {
+    background-color: #8f0f12;
+    border-color: #8F0F12;
+}
+.btn-info:hover {
+    background-color: #75552A;
+    border-color: #75552A;
+}
